@@ -14,7 +14,7 @@ for line in Lines:
     mid = len(line)//2
     c1 = line.strip()[:mid]
     c2 = line.strip()[mid:]
-    m = next(c for c in c1 if c in c2)
+    m = next(c for c in c1 if c in c2 )
     total = total + priority(m)
 print(total)
 
