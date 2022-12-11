@@ -1,7 +1,3 @@
-# Python code to
-# demonstrate readlines()
-
-# Using readlines()
 file1 = open('.\day1\input.txt', 'r')
 Lines = file1.readlines()
 
