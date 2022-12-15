@@ -1,11 +1,8 @@
 def priority(c):
   a = ord(c)
-  if 64 < a < 91:
-    return a - 38
-  elif 96 < a < 123:
-    return a - 96
-  else:
-    return -1
+  if 64 < a < 91: return a - 38
+  if 96 < a < 123: return a - 96
+  return -1
 
 def main():
   file1 = open('.\day3\input.txt', 'r')
@@ -17,8 +14,10 @@ def main():
     total = total + priority(m)
     l += 3
   print(total)
+  file1.close()
 
 if __name__ == "__main__":
   main()
+
 
 
