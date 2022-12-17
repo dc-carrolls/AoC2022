@@ -8,8 +8,5 @@ def main():
       total = total + int(line_parts[0])
   print(total)
 
-
-
-
 if __name__ == "__main__":
   main()
